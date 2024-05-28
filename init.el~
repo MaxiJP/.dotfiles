@@ -1,0 +1,24 @@
+; misc for now
+(setq visible-bell t)           ; Just makes the warning more visible, for spotify's sake
+
+; ----------------------
+;     Text rendering
+; ----------------------
+
+(set-face-attribute 'default nil :height 200)  ; Using Ubuntu Mono rn, with 200px size
+
+(load-theme 'emaxs)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '("c62224b5a865519ce1f84d6fe3ed3dfcdfaba7620022f1a57f5055b091f7d808"
+     default)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
